@@ -1,0 +1,52 @@
+.review {
+    width: 380px;
+    height: 300px;
+    background-color: #FFFFFF;
+    padding: 50px 30px;
+    display: flex;
+}
+
+.icon {
+
+}
+
+.textBlock {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 14px;
+    left: 20px;
+}
+
+.text {
+    color: #333;
+    opacity: .7;
+    line-height: 130%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.authorBlock {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.from {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    line-height: 130%;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    opacity: .7;
+    line-height: 130%;
+}

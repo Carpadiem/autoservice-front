@@ -1,0 +1,37 @@
+span {
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+    padding: 10px;
+    border: 1px solid #333;
+    border-bottom: none;
+}
+
+.value {
+    width: 160px;
+}
+
+.buttons {
+    display: flex;
+    z-index: 999;
+}
+
+.btnAccept {
+    cursor: pointer;
+    border: none;
+    padding: 10px 12px;
+    background-color: #22e97c;
+    color: #333;
+    font-weight: 600;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+.btnAccept:hover {
+    background-color: #1dbe65;
+}

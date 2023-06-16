@@ -1,0 +1,1 @@
+export { default as _5_SpecialOfferBlock } from './_5_SpecialOfferBlock'

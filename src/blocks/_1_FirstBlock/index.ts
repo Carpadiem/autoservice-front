@@ -1,0 +1,1 @@
+export { default as _1_FirstBlock } from './_1_FirstBlock'

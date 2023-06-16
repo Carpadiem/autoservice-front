@@ -1,0 +1,16 @@
+
+.btnConfirm {
+    border: none;
+    background-color: #F95F1F;
+    padding: 20px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+    transition: background-color .25s ease, transform .25s ease;
+}
+
+.btnConfirm:hover {
+    background-color: #f67037;
+}

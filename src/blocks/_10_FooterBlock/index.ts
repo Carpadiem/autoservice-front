@@ -1,0 +1,1 @@
+export { default as _10_FooterBlock } from './_10_FooterBlock'

@@ -1,0 +1,36 @@
+.modalArea {
+    position: fixed;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+    transition: opacity .4s ease;
+}
+
+.modalFilter {
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    background-color: #000;
+    opacity: .6;
+}
+
+.animModalOpen {
+    animation: fadeOpen .4s;
+}
+@keyframes fadeOpen {
+    0% {transform: translateY(100px);}
+    100% {transform: translateY(0);}
+}
+
+.animModalClose {
+    animation: fadeClose .4s;
+}
+@keyframes fadeClose {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100px);}
+}

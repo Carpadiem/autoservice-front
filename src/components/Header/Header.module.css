@@ -1,0 +1,111 @@
+.block {
+    /* border: solid 1px red; */
+    
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* background-color: rgba(255, 60, 255, .2); */
+
+    position: relative;
+    height: 100%;
+    min-width: 1200px;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vSeparator {
+    height: 24px;
+    width: 1px;
+    background-color: #FFFFFF;
+    opacity: .3;
+}
+
+.boxLogo {
+    /* background-color: green; */
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.logo span:nth-child(1) {
+    color: #F95F1F;
+    font-weight: 700;
+}
+
+.logo span:nth-child(2) {
+    color: #fff;
+    font-weight: 400;
+}
+
+.postfixText {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.points {
+    float: left;
+    display: flex;
+    gap: 30px;
+}
+
+.points a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rightBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnLogin {
+    border: solid 1px white;
+    color: white;
+    background: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background .4s ease, color .4s ease;
+    cursor: pointer;
+}
+
+.btnLogin:hover {
+    background: white;
+    color: #333;
+}
+
+.accountBox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.accountUsername {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.accountImage {
+    width: 32px;
+}

@@ -1,0 +1,1 @@
+export { default as _7_AboutBlock } from './_7_AboutBlock'

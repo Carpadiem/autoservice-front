@@ -1,0 +1,36 @@
+.header {
+    font-size: 42px;
+    line-height: 130%;
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    color: #333;
+    font-weight: 400;
+
+    text-align: center;
+    width: 520px;
+}
+
+.boxReviews {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btnAllReviews {
+    border: none;
+    background-color: #F95F1F;
+    padding: 20px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+
+    transition: background-color .25s ease, transform .25s ease;
+}
+
+.btnAllReviews:hover {
+    background-color: #f67037;
+}

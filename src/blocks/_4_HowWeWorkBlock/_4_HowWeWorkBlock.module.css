@@ -1,0 +1,52 @@
+.header {
+    color: #333;
+    font-size: 42px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    
+    /* background-color: blue; */
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.header span {
+    font-weight: 400;
+}
+
+.cards {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-transform: uppercase;
+}
+
+.image {
+    width: 280px;
+    height: 280px;
+}
+
+.card p {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 130%;
+}
+
+.bolderText {
+    font-weight: 700;
+}
+
+.lighterText {
+    font-weight: 400;
+}

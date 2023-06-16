@@ -1,0 +1,61 @@
+span {
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+    padding: 10px;
+    border: 1px solid #333;
+    border-bottom: none;
+}
+
+.value {
+    width: 160px;
+}
+
+.buttons {
+    display: flex;
+    z-index: 999;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    width: 46px;
+    height: 46px;
+    background-color: #333;
+}
+
+.roleSelect {
+    padding: 6px 8px;
+    background-color: #dfdfdf;
+    border-radius: 2px;
+    cursor: pointer;
+
+    transition: background-color .3s ease;
+}
+
+.roleSelect:hover {
+    background-color: #d1d1d1;
+}
+
+.selectBox {
+    position: absolute;
+    background-color: #333;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.selectOpt {
+    padding: 6px 8px;
+    color: white;
+    transition: background-color .3s ease;
+}
+
+.selectOpt:hover {
+    background-color: #424242;
+}

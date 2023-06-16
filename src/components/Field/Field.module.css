@@ -1,0 +1,36 @@
+.field {
+    /* background-color: blue; */
+    padding: 15px;
+    position: relative;
+    width: 360px;
+
+    border: #333 solid 1px;
+}
+
+.field_input {
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.field_input:focus {
+    outline: none;
+}
+
+.title {
+    background-color: white;
+    padding: 5px;
+
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.title h2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+}

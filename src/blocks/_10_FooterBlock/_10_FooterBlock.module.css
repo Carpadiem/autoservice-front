@@ -1,0 +1,29 @@
+.boxContacts {
+    display: flex;
+    gap: 130px;
+}
+
+.contact {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.text {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125%;
+    margin-top: 4px;
+}
