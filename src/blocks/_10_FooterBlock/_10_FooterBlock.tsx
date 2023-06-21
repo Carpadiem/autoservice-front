@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './_10_FooterBlock.module.css'
 
+import { Link } from 'react-router-dom'
+
 import { Block } from '../../components/Block'
 
 
@@ -19,7 +21,8 @@ function _10_FooterBlock() {
             containerDisplay='flex'
             containerJustifyContent='center'
             containerAlignItems='center'
-            containerGap={130}>
+            containerFlexDir='column'
+            containerGap={30}>
                 <div className={styles.boxContacts}>
                     <div className={styles.contact}>
                         <div className={styles.icon}><img src={address} alt="" /></div>
@@ -35,14 +38,15 @@ function _10_FooterBlock() {
                             <p className={styles.text}>+7 (965) 883-77-77</p>
                         </div>
                     </div>
-                    {/* <div className={styles.contact}>
+                    <div className={styles.contact}>
                         <div className={styles.icon}><img src={clock} alt="" /></div>
                         <div>
                             <h1 className={styles.title}>Часы работы</h1>
                             <p className={styles.text}>пн-вс; 08:00-18:00</p>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
+                <Link className={styles.policyLink} to={'/policy'}>Политика конфиденциальности</Link>
             </Block>
         </>
     )

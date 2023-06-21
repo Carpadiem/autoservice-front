@@ -1,6 +1,6 @@
 .boxContacts {
     display: flex;
-    gap: 130px;
+    gap: 60px;
 }
 
 .contact {
@@ -8,13 +8,14 @@
     gap: 20px;
 }
 
-.icon {
-
+.icon {}
+.icon img {
+    width: 32px;
 }
 
 .title {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 125%;
 }
@@ -22,8 +23,13 @@
 .text {
     text-transform: uppercase;
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 125%;
     margin-top: 4px;
+}
+
+.policyLink {
+    color: white;
+    text-decoration: underline;
 }

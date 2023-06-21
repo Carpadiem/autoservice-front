@@ -22,7 +22,11 @@ function RegistrationPage() {
     const [tcolorPassword, setTcolorPassword] = useState('#333')
     const [tcolorRepeatPassword, setTcolorRepeatPassword] = useState('#333')
 
+    const [readRules, setReadRules] = useState(false);
+
     const registerClick = async () => {
+
+        if (!readRules) return
 
         // пустота полей
         if (newUsername == '') {
@@ -126,11 +130,21 @@ function RegistrationPage() {
                                 <Field tcolor={tcolorPassword} value={password} onChange={(event)=>{ setPassword(event.target.value) }} width={'100%'} title='Пароль' placeholder=''/>
                                 <Field tcolor={tcolorRepeatPassword} value={repeatPassword} onChange={(event)=>{ setRepeatPassword(event.target.value) }} width={'100%'} title='Повторите пароль' placeholder=''/>
                             </div>
+                            <label style={{
+                                fontSize: 12,
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 6,
+                                marginTop: 20,
+                                }} htmlFor="rules">
+                                <input type="checkbox" id='rules' onChange={(e)=>setReadRules(e.target.checked)}/>
+                                Согласен с <Link className={styles.policyLink} to={'/policy'}>политикой конфиденциальности</Link>
+                            </label>
                             <div className={styles.controlButtons}>
                                 <button className={styles.btnLogin}>
                                     <Link to='/auth/login' style={{textDecoration: 'none'}}>Вход</Link>
                                 </button>
-                                <button className={styles.btnRegistration} onClick={()=>{ registerClick() }}>Зарегистрироваться</button>
+                                <button className={readRules == true ? styles.btnRegistrationActive : styles.btnRegistrationBlocked} onClick={()=>{ registerClick() }}>Зарегистрироваться</button>
                             </div>
                         </div>
                     </div>

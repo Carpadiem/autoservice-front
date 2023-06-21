@@ -1,0 +1,13 @@
+.contentBox {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.contentBox h2 {
+  font-size: 26px;
+}
+.contentBox p {
+  font-size: 14px;
+  line-height: 160%;
+}

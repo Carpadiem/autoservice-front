@@ -121,7 +121,21 @@
     font-size: 16px;
 }
 
-.btnRegistration {
+.btnRegistrationBlocked {
+    font-weight: 600;
+    font-size: 16px;
+    
+    border: none;
+    background: none;
+    cursor: no-drop;
+    background-color: #242424;
+    /* width: 90px; */
+    padding: 0 24px;
+    height: 44px;
+    color: #808080;
+}
+
+.btnRegistrationActive {
     font-weight: 600;
     font-size: 16px;
     
@@ -133,4 +147,9 @@
     padding: 0 24px;
     height: 44px;
     color: white;
+}
+
+.policyLink {
+    color: #333;
+    text-decoration: underline;
 }

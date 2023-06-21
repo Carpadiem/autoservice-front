@@ -3,7 +3,7 @@ import styles from './Block.module.css'
 
 interface BlockProps {
     children: React.ReactNode
-    blockHeight: number
+    blockHeight: number | string
     bgColor?: string
     bgImage?: string
     containerDisplay?: string
